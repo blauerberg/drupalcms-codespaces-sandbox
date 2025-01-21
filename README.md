@@ -1,39 +1,24 @@
-# Drupal CMS
+# Drupal CMS Cdespaces sandbox
+This repository is a GitHub Codespaces sandbox for Drupal CMS V1.
 
-Drupal CMS is a fast-moving open source product that enables site builders to easily create new Drupal sites and extend them with smart defaults, all using their browser.
+When running in GitHub Codespaces, you can open this project in the Codespaces environment and automatically get a functional Drupal setup without having to install local dependencies or manage separate environments.
 
-## Getting started
+This setup is intended for quick exploration and is not optimized for rigorous security or performance scenarios.
 
-If you want to run Drupal CMS locally use [DDEV](https://ddev.com), and follow these instructions:
+## Getting started with GitHub
 
-1. Install DDEV following the [documentation](https://ddev.com/get-started/)
-2. Open the command line and `cd` to the root directory of this project
-3. Run the command `./launch-drupal-cms.sh`
+To run this repository on GitHub Codespaces, simply select this repository and create a new Codespace.
 
-### Installation options
+Once the environment is ready, you will have a complete Drupal environment running in your browser. You can then open and edit files directly in the browser or connect via VSCode if you prefer.
 
-The Drupal CMS installer offers a list of features preconfigured with smart defaults. You will be able to customize whatever you choose, and add additional features, once you are logged in.
+## Getting starred with Devcontainer
 
-After the installer is complete, you will land on the dashboard.
+If you wish to run this repository via Devcontainer, make sure your host operating system has both VSCode and Docker Desktop installed.
 
-## Documentation
+Then open VSCode, install the Remote-Containers extension, and choose “Open Folder in Container...” from the Command Palette. Select this repository, and you will be connected to a containerized environment for Drupal development. This approach ensures a consistent setup across different machines.
 
-Coming soon ... [We're working on Drupal CMS specific documentation](https://www.drupal.org/project/drupal_cms/issues/3454527).
-
-In the meantime, learn more about managing a Drupal-based application in the [Drupal User Guide](https://www.drupal.org/docs/user_guide/en/index.html).
-
-## Contributing
-
-Drupal CMS is developed in the open on [Drupal.org](https://www.drupal.org). We are grateful to the community for reporting bugs and contributing fixes and improvements.
-
-[Report issues in the queue](https://drupal.org/node/add/project-issue/drupal_cms), providing as much detail as you can. You can also join the #drupal-cms-support channel in the [Drupal Slack community](https://www.drupal.org/slack).
-
-Drupal CMS has adopted a [code of conduct](https://www.drupal.org/dcoc) that we expect all participants to adhere to.
-
-To contribute to Drupal CMS development, see the [drupal_cms project](https://www.drupal.org/project/drupal_cms).
+## Note
+Please note that this repository is purely for sandbox purposes, and as such, its security and performance have not been thoroughly tested or optimized.
 
 ## License
-
-Drupal CMS and all derivative works are licensed under the [GNU General Public License, version 2 or later](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html).
-
-Learn about the [Drupal trademark and logo policy here](https://www.drupal.com/trademark).
+[MIT](LICENSE)
