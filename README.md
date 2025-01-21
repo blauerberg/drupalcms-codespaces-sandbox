@@ -6,7 +6,7 @@ When running in GitHub Codespaces, you can open this project in the Codespaces e
 
 This setup is intended for quick exploration and is not optimized for rigorous security or performance scenarios.
 
-## Getting started with GitHub Codespaces
+## 🚀 Getting started with GitHub Codespaces
 
 To run this repository on GitHub Codespaces, simply select this repository and create a new Codespace.
 
@@ -25,13 +25,13 @@ Please specify the following connection parameters in the Drupal installation wi
 
 These values can be found in [.devcontainer/compose.yml](.devcontainer/compose.yml). You can override them using a local .env file or [GitHub Codespaces secrets](https://docs.github.com/en/codespaces/managing-your-codespaces/managing-your-account-specific-secrets-for-github-codespaces).
 
-## Getting started with Devcontainer
+## 💻 Getting started with Devcontainer
 
-If you wish to run this repository via Devcontainer, make sure your host operating system has both VSCode and Docker Desktop installed.
+If you wish to run this repository via [Devcontainer](https://code.visualstudio.com/docs/devcontainers/containers), make sure your host operating system has both VSCode and Docker Desktop installed.
 
 Then open VSCode, install the Remote-Containers extension, and choose “Open Folder in Container...” from the Command Palette. Select this repository, and you will be connected to a containerized environment for Drupal development.
 
-This approach ensures a consistent setup across different machines. :smile:
+This approach ensures a consistent setup across different machines.
 
 ## Note
 
