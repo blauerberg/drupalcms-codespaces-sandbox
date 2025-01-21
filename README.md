@@ -1,8 +1,8 @@
 # Drupal CMS Codespaces sandbox
 
-This repository is a GitHub Codespaces sandbox for Drupal CMS V1.
+This repository is a GitHub Codespaces sandbox for [Drupal CMS 1.0](https://www.drupal.org/blog/drupal-cms-1-0).
 
-When running in GitHub Codespaces, you can open this project in the Codespaces environment and automatically get a functional Drupal setup without having to install local dependencies or manage separate environments.
+When running in GitHub Codespaces, you can open this project in the Codespaces environment and automatically get a functional Drupal setup without having to install local dependencies or manage separate environments. 🚀
 
 This setup is intended for quick exploration and is not optimized for rigorous security or performance scenarios.
 
@@ -12,7 +12,7 @@ To run this repository on GitHub Codespaces, simply select this repository and c
 
 Once the environment is ready, you will have a complete Drupal environment running in your browser. You can then open and edit files directly in the browser or connect via VSCode if you prefer.
 
-## Database Connection Information
+### Database Connection Information
 
 Please specify the following connection parameters in the Drupal installation wizard.
 
@@ -29,7 +29,9 @@ These values can be found in [.devcontainer/compose.yml](.devcontainer/compose.y
 
 If you wish to run this repository via Devcontainer, make sure your host operating system has both VSCode and Docker Desktop installed.
 
-Then open VSCode, install the Remote-Containers extension, and choose “Open Folder in Container...” from the Command Palette. Select this repository, and you will be connected to a containerized environment for Drupal development. This approach ensures a consistent setup across different machines.
+Then open VSCode, install the Remote-Containers extension, and choose “Open Folder in Container...” from the Command Palette. Select this repository, and you will be connected to a containerized environment for Drupal development.
+
+This approach ensures a consistent setup across different machines. :smile:
 
 ## Note
 
