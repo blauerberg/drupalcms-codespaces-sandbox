@@ -32,5 +32,6 @@
     }
   },
   "forwardPorts": [80],
-  "remoteUser": "vscode"
+  "remoteUser": "vscode",
+  "postStartCommand": "composer install --no-interaction --no-progress"
 }
