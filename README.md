@@ -16,12 +16,12 @@ Once the environment is ready, you will have a complete Drupal environment runni
 
 Please specify the following connection parameters in the Drupal installation wizard.
 
-| Parameter         | Value  |
-|-------------------|--------|
-| Database name     | drupal |
-| Database username | drupal |
-| Database password | drupal |
-| Host              | db     |
+| Parameter         | Default value  |
+|-------------------|----------------|
+| Database name     | drupal         |
+| Database username | drupal         |
+| Database password | drupal         |
+| Host              | db             |
 
 These values can be found in [.devcontainer/compose.yml](.devcontainer/compose.yml). You can override them using a local .env file or [GitHub Codespaces secrets](https://docs.github.com/en/codespaces/managing-your-codespaces/managing-your-account-specific-secrets-for-github-codespaces).
 
