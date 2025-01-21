@@ -1,0 +1,36 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.245.2/containers/php-mariadb
+// Update the VARIANT arg in docker-compose.yml to pick a PHP version
+{
+  "name": "drupalcms-codespaces-sandbox",
+  "dockerComposeFile": "compose.yml",
+  "service": "drupal",
+  "workspaceFolder": "/workspace/drupalcms-codespaces-sandbox",
+  // Configure tool-specific properties.
+  "customizations": {
+    // Configure properties specific to VS Code.
+    "vscode": {
+      // Add the IDs of extensions you want installed when the container is created.
+      "extensions": [
+        "ms-vscode-remote.remote-containers",
+        "ms-vscode-remote.vscode-remote-extensionpack",
+        "MS-vsliveshare.vsliveshare-pack",
+        "GitHub.codespaces"
+      ],
+      "settings": {
+        "extensions.ignoreRecommendations": true,
+        "files.associations": {
+          "*.php": "php",
+          "*.inc": "php",
+          "*.module": "php",
+          "*.install": "php",
+          "*.theme": "php",
+          "*.profile": "php",
+          "*.test": "php"
+        }
+      }
+    }
+  },
+  "forwardPorts": [80],
+  "remoteUser": "vscode"
+}

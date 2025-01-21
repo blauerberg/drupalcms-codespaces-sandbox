@@ -1,0 +1,33 @@
+services:
+  drupal:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        VARIANT: "8.3-bookworm"
+        APACHE_DOCUMENT_ROOT: /workspace/drupalcms-codespaces-sandbox/web
+    image: drupalcms-codespaces-sandbox:latest
+    user: vscode
+    command: apache2-foreground
+    ports:
+      - "80:80"
+    volumes:
+     - ..:/workspace/drupalcms-codespaces-sandbox
+    depends_on:
+      db:
+        condition: service_started
+
+  db:
+    image: mysql:9
+    command:
+      - --transaction_isolation=READ-COMMITTED
+    volumes:
+      - db-data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-root}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-drupal}
+      MYSQL_USER: ${MYSQL_USER:-drupal}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-drupal}
+
+volumes:
+  db-data:
