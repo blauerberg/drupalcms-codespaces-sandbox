@@ -29,7 +29,7 @@ These values can be found in [.devcontainer/compose.yml](.devcontainer/compose.y
 
 If you wish to run this repository via [Devcontainer](https://code.visualstudio.com/docs/devcontainers/containers), make sure your host operating system has both VSCode and Docker Desktop installed.
 
-Then open VSCode, install the Remote-Containers extension, and choose “Open Folder in Container...” from the Command Palette. Select this repository, and you will be connected to a containerized environment for Drupal development.
+Then open VSCode, install the Remote-Containers extension, and choose Dev Containers: Rebuild and Reopen in Container” from the Command Palette.
 
 This approach ensures a consistent setup across different machines.
 
