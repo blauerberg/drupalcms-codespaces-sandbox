@@ -12,6 +12,8 @@ To run this repository on GitHub Codespaces, simply select this repository and c
 
 Once the environment is ready, you will have a complete Drupal environment running in your browser. You can then open and edit files directly in the browser or connect via VSCode if you prefer.
 
+![demo](https://github.com/blauerberg/drupalcms-codespaces-sandbox/blob/main/assets/demo.gif?raw=true)
+
 ### Database Connection Information
 
 Please specify the following connection parameters in the Drupal installation wizard.
