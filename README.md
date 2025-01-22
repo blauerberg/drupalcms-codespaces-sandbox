@@ -23,7 +23,7 @@ Please specify the following connection parameters in the Drupal installation wi
 | Database password | drupal         |
 | Host              | db             |
 
-These values can be found in [.devcontainer/compose.yml](.devcontainer/compose.yml). You can override them using a local .env file or [GitHub Codespaces secrets](https://docs.github.com/en/codespaces/managing-your-codespaces/managing-your-account-specific-secrets-for-github-codespaces).
+These values can be found in [compose.yml](.devcontainer/compose.yml). You can override them using a local .env file or [GitHub Codespaces secrets](https://docs.github.com/en/codespaces/managing-your-codespaces/managing-your-account-specific-secrets-for-github-codespaces).
 
 ## 💻 Getting started with Devcontainer
 

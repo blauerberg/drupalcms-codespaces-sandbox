@@ -45,3 +45,8 @@ RUN a2enmod expires rewrite
 # [Choice] Node.js version: none, lts/*, 16, 14, 12, 10
 ARG NODE_VERSION="none"
 RUN if [ "${NODE_VERSION}" != "none" ]; then su vscode -c "umask 0002 && . /usr/local/share/nvm/nvm.sh && nvm install ${NODE_VERSION} 2>&1"; fi
+
+WORKDIR /workspace/drupalcms-codespaces-sandbox/
+COPY web /workspace/drupalcms-codespaces-sandbox/
+COPY composer.json composer.lock /workspace/drupalcms-codespaces-sandbox/
+RUN composer install --no-interaction --no-progress

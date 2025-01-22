@@ -3,7 +3,7 @@
 // Update the VARIANT arg in docker-compose.yml to pick a PHP version
 {
   "name": "drupalcms-codespaces-sandbox",
-  "dockerComposeFile": "compose.yml",
+  "dockerComposeFile": "../compose.yml",
   "service": "drupal",
   "workspaceFolder": "/workspace/drupalcms-codespaces-sandbox",
   // Configure tool-specific properties.
@@ -33,5 +33,5 @@
   },
   "forwardPorts": [80],
   "remoteUser": "vscode",
-  "postStartCommand": "composer install --no-interaction --no-progress"
+  "onCreateCommand": "composer install --no-interaction --no-progress"
 }

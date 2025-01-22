@@ -12,7 +12,7 @@ services:
     ports:
       - "80:80"
     volumes:
-     - ..:/workspace/drupalcms-codespaces-sandbox
+     - .:/workspace/drupalcms-codespaces-sandbox
     depends_on:
       db:
         condition: service_started
